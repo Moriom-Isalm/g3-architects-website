@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/* nav section */
+header{
+    background-color: bisque;
+    padding: 50px 240px;
+}
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.nav-tittle{
+    font-size: 2.8rem;
+    font-weight: 700px;
+    color: black;
+}
+ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+/* banner styles start */
+.banner-container{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-tittle {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.banner-description{
+    color: black;
+}
+.btn-primary{
+    
+}
+/* banner styles end */
